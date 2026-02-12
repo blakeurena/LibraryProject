@@ -385,13 +385,13 @@ padding-top: 8px;
 .project__description--para,
 .project__description--link {
 text-align: left;
-color: #fff;
+color: #f8f4f4;
 }
 
 /* Footer */
 
 footer {
-    background-color: #242424;
+    background-color: #0d0d0d;
     display: flex;
     padding: 6% 0;
     position: relative;
