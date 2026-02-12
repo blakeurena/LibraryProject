@@ -81,12 +81,12 @@ li {
     margin: 0 auto;
 }
 
-.text--purple {
+.text--blue {
     color: #2309e7;
 }
 
 section:nth-child(even) {
-    background-color: #f8f8f8;
+    background-color: white;
 }
 
 .section__title {
@@ -112,7 +112,7 @@ nav {
 
 .nav__link--anchor {
     margin: 0 12px;
-    color: #242424;
+    color: #2309e7;
     text-decoration: none;
     font-weight: 700;
 }
@@ -201,7 +201,7 @@ padding-top: 8px;
 
 .about-me__link {
     font-size: 20px;
-    color: black;
+    color: rgb(2, 2, 2);
     padding: 0 16px;
 }
 
