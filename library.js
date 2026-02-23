@@ -1,7 +1,10 @@
-function openMenu() {
-    document.body.classList += " menu--open"
-}
+const menuOpenBtn = document.querySelector(".btn__menu");
+const menuCloseBtn = document.querySelector(".btn__menu--close");
 
-function closeMenu() {
-    document.body.classList.remove("menu--open")
-}
+menuOpenBtn.addEventListener("click", () => {
+  document.body.classList.add("menu--open");
+});
+
+menuCloseBtn.addEventListener("click", () => {
+  document.body.classList.remove("menu--open");
+});
